@@ -6,17 +6,12 @@ using System.Web;
 
 namespace ExploreEntity.Models
 {
-    public class Animal
+    public class CitationStyle
     {
         [Key]
-        public int AnimalId { get; set; }
+        public int CitationStyleId { get; set; }
 
+        [Required]
         public string Name { get; set; }
-
-        public int Age { get; set; }
-
-        public string Habitat { get; set; }
-
-        public int Species { get; set; }
     }
 }
